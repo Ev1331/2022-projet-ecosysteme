@@ -32,7 +32,7 @@ namespace projet_ecosysteme_2022
         {
             base.Birth(mom);
             Random random = new Random();
-            Simu.AddObjet(new Tyrannosaurus(Colors.Orange, mom.X, mom.Y, Simu, 100, 100, random.Next(60, 95), Convert.ToBoolean(random.Next(2)), -1, 100, 20));
+            Simu.AddObjet(new Tyrannosaurus(Colors.Red, mom.X, mom.Y, Simu, 100, 100, random.Next(60, 95), Convert.ToBoolean(random.Next(2)), -1, 100, 20));
         }
 
     }
