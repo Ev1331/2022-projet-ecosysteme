@@ -1,4 +1,5 @@
 # Simulation de dinosaures!
+Par E. d'Oultremont & H. Baise.
 ## Découverte des entités
 Toutes les formes de vie disposent de points d'énergie. Lorsque l'énergie est épuisée, des points de vie sont convertis en énergie.
 Chaque tour, l'énergie de chaque forme de vie est décrémentée. Une fois tout sa vie épuisée, l'entité meurt. La carte est en wraparound.
