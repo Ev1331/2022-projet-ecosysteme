@@ -3,9 +3,9 @@ namespace projet_ecosysteme_2022
 {
     public abstract class Herbivorous : Animal
     {
-        int visibleObjectsLength;
-        int listContactLength;
-        DrawableObject obj;
+        private int visibleObjectsLength;
+        private int listContactLength;
+        private DrawableObject obj;
         public Herbivorous(Color color, double x, double y, Simulation simulation, int healthPoints, int energyPoints, int strength, bool female, int gestationTime, int fieldOfView, int contactRange, int cooldown, int dischargeFreq) : base(color, x, y, simulation, healthPoints, energyPoints, strength, female, gestationTime, fieldOfView, contactRange, cooldown, dischargeFreq)
         {
             this.Color = color;
