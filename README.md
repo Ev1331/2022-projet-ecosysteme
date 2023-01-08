@@ -38,7 +38,7 @@ Exemple: `Fern`
 
 ### Déchets organiques `OrganicWaste` ![](https://placehold.co/15x15/green/green)
 - Disparait après un certain temps
-- Petite chance de génére une plante en disparaissant
+- Petite chance de générer une plante en disparaissant
 
 ## Gestion des interactions
 Chaque entité calcule la distance à toute entité existante par le théorème de Pythagore: `r² = (x-a)² + (y-b)²`. 
