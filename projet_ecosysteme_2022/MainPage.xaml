@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:drawable="clr-namespace:projet_ecosysteme_2022"
+             x:Class="projet_ecosysteme_2022.MainPage">
+    <ContentPage.Resources>
+        <drawable:Simulation x:Key="simulation" />
+    </ContentPage.Resources>
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <GraphicsView 
+                x:Name="graphics"
+                Drawable="{StaticResource simulation}"
+                HeightRequest="500"
+                WidthRequest="1000" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
