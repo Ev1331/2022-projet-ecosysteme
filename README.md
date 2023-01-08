@@ -47,10 +47,10 @@ Si une cible se trouve dans le rayon d'action, son type est analysé et un compo
 ## Principes SOLID
 
 ### Dependency inversion principle
-Le principe d'inversion des dépendances impose que les sous-classes ne dépendent que de classes abstraites. Dans ce projet, toutes les classes concrêtes héritent de classes abstraites, et ces classes abstraites héritent elles-mêmes d’autres classes abstraites. Aucune classe parent de classe concrète n'ayant du être instanciée, elles ont pu toutes passer en mode abstrait.
+Le principe d'inversion des dépendances impose que les sous-classes ne dépendent que de classes abstraites. Dans ce projet, toutes les classes concrètes héritent de classes abstraites, et ces classes abstraites héritent elles-mêmes d’autres classes abstraites. Aucune classe parent de classe concrète n'ayant du être instanciée, elles ont pu toutes passer en mode abstrait.
 
 ### Open/closed principle
-Le principe ouvert/fermé impose que le code soit ouvert aux extensions et fermé à la modification. Dans ce projet, l’utilisation des classes abstraites permet de respecter ce principe. La création d’une nouvelle classe d’espèce herbivore, `Pachycephalosaurus` par exemple, ne nous obligera pas à modifier quelconque classe supérieure.
+Le principe ouvert/fermé impose que le code soit ouvert aux extensions et fermé à la modification. Dans ce projet, l’utilisation des classes abstraites permet de respecter ce principe. La création d’une nouvelle classe d’espèce herbivore, disons `Pachycephalosaurus`, ne nous obligera pas à modifier quelconque classe supérieure.
 
 ## Diagrammes UML
 
