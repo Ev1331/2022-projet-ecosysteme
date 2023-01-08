@@ -5,7 +5,7 @@ Toutes les formes de vie disposent de points d'énergie. Lorsque l'énergie est 
 Chaque tour, l'énergie de chaque forme de vie est décrémentée. Une fois tout sa vie épuisée, l'entité meurt. La carte est en wraparound.
 ### Animaux `Animals`
 - Se déplacent
-- Ont une zone de vision et une zone d'action: les animaux se dirigent vers les entités intéressantes présentes dans leur zone de vision, et peuvent interagir avec une fois celles-ci dans leur zone d'action
+- Ont une zone de vision et une zone d'action circulaires: les animaux se dirigent vers les entités intéressantes présentes dans leur zone de vision, et peuvent interagir avec une fois celles-ci dans leur zone d'action
 - Se transforment en viande à la fin de leur vie: prédation ou mort naturelle
 - Peuvent se reproduire avec un semblable de sexe opposé: un petit apparaitra après une période de gestation[^1]
 
